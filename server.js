@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3000;
 const path = require('path');
 const cors = require('cors');
+const connectDB = require('./config/db');
 require('dotenv').config();
 
 // // Cors 
@@ -23,7 +24,7 @@ require('dotenv').config();
 // app.use(cors(corsOptions))
 app.use(express.static('public'));
 
-const connectDB = require('./config/db');
+
 connectDB();
 app.use(bodyParser.json());
 // app.use(express.json());
@@ -31,9 +32,8 @@ app.use(bodyParser.json());
 app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 
-app.get('/',(req,res)=>
-{
-  res.send('we are legion')
+app.get('/', (req, res) => {
+    res.send('we are legion')
 
 });
 // Routes 

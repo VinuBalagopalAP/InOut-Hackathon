@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(9, 41, 9);
+    color: white;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.mains{
+    margin-top: 20%;
+}
+.greens{
+    color: green;
+    font-size: large;
+    font-weight: 700;
+}
+.heads{
+    font-size: 5rem;
+   
+    
+}
+.login{
+    margin-top: 10%;
+}

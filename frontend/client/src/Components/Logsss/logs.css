@@ -1,0 +1,27 @@
+.logss{
+    margin-top: 3%;
+}
+.flexes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.green1{
+    background-color: rgb(5, 32, 5);
+    margin-top: 10%;
+}
+.ib{
+    width: 40%;
+    
+}
+.rl{margin-top: 3%;
+    color: green;
+    font-size: large;
+    font-weight: 700;
+}
+.ip{
+    color: white;
+    width: 67%;
+    margin: 3%;
+    height: 30px;
+    background-color: rgb(11, 54, 11);
+}
